@@ -76,14 +76,17 @@ Esses códigos trabalham em conjunto para criar um aplicativo de cadastro que pe
 
 ## Incluir Pessoa:
 
-
-
-
-
 <p align="center">
   <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/95a06b6f-6c62-4428-ad54-cc195bc9fffe" alt="Imagem 1" width="400" height="400" />
   <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/4ce7d425-1c28-4669-9eb8-d8fcdaf0fc72" alt="Imagem 2" width="400" height="400" />
 </p>
+
+<p align="center">
+  <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/4955067d-4910-412d-a634-bdd13b13db55" alt="Imagem 1" width="400" height="400" />
+  <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/4ce7d425-1c28-4669-9eb8-d8fcdaf0fc72" alt="Imagem 2" width="400" height="400" />
+</p>
+
+![image]()
 
 
 
