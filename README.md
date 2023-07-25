@@ -1,6 +1,6 @@
-Prática de Cadastro usando JDBC e Padrão DAO
+# Prática de Cadastro usando JDBC e Padrão DAO
 
-Objetivo da Prática: 
+** Objetivo da Prática: **
 
 1 - Implementar persistência com base no middleware JDBC.
 Utilizar o padrão DAO (Data Access Object) no manuseio de dados.
@@ -13,7 +13,7 @@ Server na persistência de dados.
 
 Códigos Solicitados:
 
-3.1. Classe ConectorBD:
+3.1. _Classe ConectorBD_:
 
 
 A classe ConectorBD é responsável por estabelecer a conexão com o banco de dados. Ela contém métodos para abrir e fechar a conexão, bem como para obter um objeto Statement que será usado para executar consultas SQL no banco de dados.
