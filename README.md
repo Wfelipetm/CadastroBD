@@ -33,7 +33,7 @@ A classe SequenceManager é responsável por gerenciar sequências numéricas no
 
 
 
-## 3.3.  Classes PessoaFisica e PessoaJuridica:
+## 3.3. PessoaFisica e PessoaJuridica:
 
 
 As classes PessoaFisica e PessoaJuridica são classes que representam entidades no sistema, ou seja, as informações de uma pessoa física e pessoa jurídica, respectivamente. Cada uma dessas classes possui atributos que correspondem aos campos do banco de dados, como nome, CPF, CNPJ, etc. Essas classes também possuem métodos getter e setter para acessar e modificar esses atributos.
