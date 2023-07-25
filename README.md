@@ -68,13 +68,13 @@ Esses códigos trabalham em conjunto para criar um aplicativo de cadastro que pe
 
 # Análise e Conclusão:
 
-#### a. Qual a importância dos componentes de middleware, como o JDBC?
+### a. Qual a importância dos componentes de middleware, como o JDBC?
 
 
 Resposta: Os componentes de middleware, como o JDBC (Java Database Connectivity), desempenham um papel crucial na comunicação entre aplicativos Java e bancos de dados. Eles agem como uma camada de tradução que permite que o código Java interaja com diferentes sistemas de gerenciamento de banco de dados (DBMS) de forma independente. O JDBC facilita a conexão com o banco de dados, o envio de consultas SQL, o processamento de resultados e o controle de transações. Isso torna o desenvolvimento de aplicativos Java mais eficiente e portátil, pois não é necessário escrever código específico para cada DBMS.
 
 
-b. Qual a diferença no uso de Statement ou PreparedStatement para a manipulação de dados?
+### b. Qual a diferença no uso de Statement ou PreparedStatement para a manipulação de dados?
 
 
 Resposta: O Statement e o PreparedStatement são interfaces do JDBC usadas para executar consultas SQL em um banco de dados. A principal diferença entre eles é a forma como tratam os parâmetros de consulta:
@@ -92,7 +92,7 @@ PreparedStatement: É usado para consultas parametrizadas, onde os valores dos p
 
 
 
-c. Como o padrão DAO melhora a manutenibilidade do software?
+### c. Como o padrão DAO melhora a manutenibilidade do software?
 
 
 Resposta: O padrão DAO (Data Access Object) é um padrão de projeto que separa a lógica de negócios da lógica de acesso aos dados em um aplicativo. Ao utilizar o padrão DAO, as operações de acesso ao banco de dados são encapsuladas em classes DAO específicas para cada entidade, como PessoaFisicaDAO e PessoaJuridicaDAO. Isso melhora a manutenibilidade do software de várias maneiras:
@@ -115,7 +115,7 @@ Reutilização de Código: As operações de acesso ao banco de dados são encap
 
 
 
-d. Como a herança é refletida no banco de dados, quando lidamos com um modelo estritamente relacional?
+### d. Como a herança é refletida no banco de dados, quando lidamos com um modelo estritamente relacional?
 
 
 Resposta: Em um modelo estritamente relacional, a herança é geralmente implementada usando uma estratégia conhecida como "herança por tabelas" ou "tabelas de junção". Nessa abordagem, cada classe filha herda os atributos e comportamentos da classe pai, e essas classes são mapeadas para tabelas separadas no banco de dados.
@@ -127,7 +127,7 @@ Por exemplo, no código fornecido, temos as classes PessoaFisica e PessoaJuridic
 Essa abordagem garante que cada tabela no banco de dados represente apenas uma entidade específica, mantendo a integridade do modelo relacional.
 
 
-e. Quais as diferenças entre a persistência em arquivo e a persistência em banco de dados?
+### e. Quais as diferenças entre a persistência em arquivo e a persistência em banco de dados?
 
 
 Resposta: As diferenças entre a persistência em arquivo e a persistência em banco de dados são:
@@ -155,7 +155,7 @@ Gerenciamento de Concorrência: Os bancos de dados são projetados para lidar co
 
 
 
-f. **Como o uso de operador lambda simplificou a impressão dos valores contidos nas entidades, nas versversões mais recentes do Java?
+### f. **Como o uso de operador lambda simplificou a impressão dos valores contidos nas entidades, nas versversões mais recentes do Java?
 
 
 Resposta: Nas versões mais recentes do Java (a partir do Java 8), o uso de operadores lambda introduziu uma forma mais concisa e expressiva de lidar com iterações em coleções de dados. No código fornecido, o operador lambda é utilizado para simplificar a impressão dos valores contidos nas entidades PessoaFisica e PessoaJuridica nas operações de listagem. Em vez de criar um laço explícito e escrever um código de impressão personalizado, o operador lambda permite a impressão dos valores de forma mais concisa e legível, reduzindo a quantidade de código necessário.
@@ -172,7 +172,7 @@ pessoasFisicas.forEach(pessoaFisica -> pessoaFisica.exibir());
 Isso torna o código mais limpo e legível, simplificando a impressão dos valores contidos nas entidades.
 
 
-g. Por que métodos acionados diretamente pelo método main, sem o uso de um objeto, precisam ser marcados como static?
+### g. Por que métodos acionados diretamente pelo método main, sem o uso de um objeto, precisam ser marcados como static?
 
 Os métodos acionados diretamente pelo método main (o ponto de entrada do programa) precisam ser marcados como static porque o método main também é static. O método main é o ponto de partida para a execução do programa Java, e ele pertence à classe que contém o método main, não a uma instância específica dessa classe.
 
