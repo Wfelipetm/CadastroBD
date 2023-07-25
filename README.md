@@ -123,8 +123,9 @@ Esses códigos trabalham em conjunto para criar um aplicativo de cadastro que pe
 </p>
 <p align="center">
  
-  <img src="" alt="Imagem 2" width="800" height="400" />
+  <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/d1f2fd49-2c2d-447b-b76c-3e90c597de4d" alt="Imagem 2" width="800" height="400" />
 </p>
+
 
 
 
