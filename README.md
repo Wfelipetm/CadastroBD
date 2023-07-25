@@ -21,7 +21,7 @@ Server na persistência de dados.
 
 Códigos Solicitados:
 
-## 3.1. **_Classe ConectorBD :_**
+## 3.1. Classe ConectorBD:
 
 
 A classe ConectorBD é responsável por estabelecer a conexão com o banco de dados. Ela contém métodos para abrir e fechar a conexão, bem como para obter um objeto Statement que será usado para executar consultas SQL no banco de dados.
@@ -68,7 +68,7 @@ Esses códigos trabalham em conjunto para criar um aplicativo de cadastro que pe
 
 # Análise e Conclusão:
 
-a. Qual a importância dos componentes de middleware, como o JDBC?
+#### a. Qual a importância dos componentes de middleware, como o JDBC?
 
 
 Resposta: Os componentes de middleware, como o JDBC (Java Database Connectivity), desempenham um papel crucial na comunicação entre aplicativos Java e bancos de dados. Eles agem como uma camada de tradução que permite que o código Java interaja com diferentes sistemas de gerenciamento de banco de dados (DBMS) de forma independente. O JDBC facilita a conexão com o banco de dados, o envio de consultas SQL, o processamento de resultados e o controle de transações. Isso torna o desenvolvimento de aplicativos Java mais eficiente e portátil, pois não é necessário escrever código específico para cada DBMS.
