@@ -1,7 +1,7 @@
 ![image](https://github.com/Wfelipetm/MissaoPraticaN1_Mundo3/assets/108297008/262d833e-618d-480c-83cd-8f856715ebd8)
 
 
-# Prática de Cadastro usando JDBC e Padrão DAO
+# Cadastro usando JDBC e Padrão DAO
 
 
 
