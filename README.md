@@ -22,41 +22,41 @@ Server na persistência de dados.
 Códigos Solicitados:
 
 ## 3.1. **_Classe ConectorBD :_**
-1
+
 
 A classe ConectorBD é responsável por estabelecer a conexão com o banco de dados. Ela contém métodos para abrir e fechar a conexão, bem como para obter um objeto Statement que será usado para executar consultas SQL no banco de dados.
 
 
-3.2. Classe SequenceManager:
+## 3.2. Classe SequenceManager:
 
 A classe SequenceManager é responsável por gerenciar sequências numéricas no banco de dados. Ela utiliza a função nextval do SQL para obter o próximo valor de uma sequência especificada no banco de dados.
 
 
 
-3.3. Classes PessoaFisica e PessoaJuridica:
+## 3.3. Classes PessoaFisica e PessoaJuridica:
 
 
 As classes PessoaFisica e PessoaJuridica são classes que representam entidades no sistema, ou seja, as informações de uma pessoa física e pessoa jurídica, respectivamente. Cada uma dessas classes possui atributos que correspondem aos campos do banco de dados, como nome, CPF, CNPJ, etc. Essas classes também possuem métodos getter e setter para acessar e modificar esses atributos.
 
 
-3.4. Classe PessoaFisicaDAO:
+## 3.4. Classe PessoaFisicaDAO:
 
 A classe PessoaFisicaDAO é uma classe que implementa a lógica de acesso aos dados para a entidade PessoaFisica. Ela possui métodos para incluir, alterar, excluir e buscar informações de pessoas físicas no banco de dados. A classe utiliza a classe ConectorBD para estabelecer a conexão com o banco de dados e realizar as operações SQL.
 
 
 
-3.5. Classe PessoaJuridicaDAO:
+## 3.5. Classe PessoaJuridicaDAO:
 
 A classe PessoaJuridicaDAO é semelhante à classe PessoaFisicaDAO, mas é específica para a entidade PessoaJuridica. Ela também possui métodos para incluir, alterar, excluir e buscar informações de pessoas jurídicas no banco de dados, utilizando a classe ConectorBD para a conexão e operações SQL.
 
 
-3.6. Classe InterfaceCadastro:
+## 3.6. Classe InterfaceCadastro:
 
 A classe InterfaceCadastro contém métodos para interagir com o usuário através da linha de comando e realizar as operações de inclusão, alteração, exclusão, obtenção por ID e listagem de pessoas físicas e jurídicas. Ela utiliza as classes PessoaFisicaDAO e PessoaJuridicaDAO para realizar essas operações no banco de dados.
 
 
 
-3.7. Classe CadastroBD:
+## 3.7. Classe CadastroBD:
 
 A classe CadastroBD é a classe principal do aplicativo. Ela contém o método main, que é o ponto de entrada do programa. Essa classe é responsável por criar instâncias dos DAOs e realizar a interação com o usuário através da classe InterfaceCadastro.
 
@@ -64,9 +64,9 @@ A classe CadastroBD é a classe principal do aplicativo. Ela contém o método m
 Esses códigos trabalham em conjunto para criar um aplicativo de cadastro que permite ao usuário interagir com o banco de dados, realizando operações de inclusão, alteração, exclusão, obtenção e listagem de pessoas físicas e jurídicas. O uso do padrão DAO ajuda a manter a separação de responsabilidades e a melhorar a manutenibilidade do código, enquanto o JDBC facilita a conexão com o banco de dados e a execução de consultas SQL. A interface InterfaceCadastro fornece uma experiência amigável ao usuário para realizar essas operações de forma intuitiva e eficiente.
 
 
-Resultados da Execução: (Serão preenchidos posteriormente)
+## Resultados da Execução: 
 
-Análise e Conclusão:
+# Análise e Conclusão:
 
 a. Qual a importância dos componentes de middleware, como o JDBC?
 
