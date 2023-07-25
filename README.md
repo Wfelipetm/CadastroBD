@@ -76,9 +76,11 @@ Esses códigos trabalham em conjunto para criar um aplicativo de cadastro que pe
 
 ## Resultados da Execução:
 <p align="center">
+  ## Incluir
   <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/95a06b6f-6c62-4428-ad54-cc195bc9fffe" alt="Imagem 1" width="400" height="400" />
-  
+  <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/1aaf2f0d-dab3-48d0-b583-fea1b0b01fe3" alt="Imagem 2" width="400" height="400" />
 </p>
+
 
 
 
