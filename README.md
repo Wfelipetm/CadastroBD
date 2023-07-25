@@ -98,8 +98,9 @@ Esses códigos trabalham em conjunto para criar um aplicativo de cadastro que pe
 </p>
 <p align="center">
  
-  <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/2fcd8167-266e-4ca3-91fa-14d30e7103e0" alt="Imagem 2" width="800" height="400" />
+  <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/e9566eff-cd83-4bef-b160-5bf0e6d2303e" alt="Imagem 2" width="800" height="400" />
 </p>
+
 
 
 
