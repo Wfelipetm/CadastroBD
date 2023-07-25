@@ -1,11 +1,15 @@
-Prática de Cadastro usando JDBC e Padrão DAO
+#Prática de Cadastro usando JDBC e Padrão DAO
 
 Objetivo da Prática: 
 
 1 - Implementar persistência com base no middleware JDBC.
+
 Utilizar o padrão DAO (Data Access Object) no manuseio de dados.
+
 2 - Implementar o mapeamento objeto-relacional em sistemas Java.
+
 3 - Criar sistemas cadastrais com persistência em banco relacional.
+
 4 - criar um aplicativo cadastral com uso do SQL
 Server na persistência de dados.
 
