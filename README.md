@@ -64,6 +64,7 @@ A classe CadastroBD é a classe principal do aplicativo. Ela contém o método m
 
 
 Esses códigos trabalham em conjunto para criar um aplicativo de cadastro que permite ao usuário interagir com o banco de dados, realizando operações de inclusão, alteração, exclusão, obtenção e listagem de pessoas físicas e jurídicas. O uso do padrão DAO ajuda a manter a separação de responsabilidades e a melhorar a manutenibilidade do código, enquanto o JDBC facilita a conexão com o banco de dados e a execução de consultas SQL. A interface InterfaceCadastro fornece uma experiência amigável ao usuário para realizar essas operações de forma intuitiva e eficiente.
+
 ![image](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/6878d710-0d1b-4736-b849-e7843aa4a201)
 
 
