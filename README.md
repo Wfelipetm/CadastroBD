@@ -21,8 +21,8 @@ Server na persistência de dados.
 
 Códigos Solicitados:
 
-<span style="font-size:28px;">3.1. **_Classe ConectorBD :_**</span>
-
+## 3.1. **_Classe ConectorBD :_**
+1
 
 A classe ConectorBD é responsável por estabelecer a conexão com o banco de dados. Ela contém métodos para abrir e fechar a conexão, bem como para obter um objeto Statement que será usado para executar consultas SQL no banco de dados.
 
