@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Prática de Cadastro usando JDBC e Padrão DAO
 =======
 ** Prática de Cadastro usando JDBC e Padrão DAO
 >>>>>>> 9e6f32e6618963a380432efb3d3bd38a6c07cf29
+=======
+ Prática de Cadastro usando JDBC e Padrão DAO
+>>>>>>> ebb9e84132544bf38969d5e5e1d1ae143714fdd9
 
 ** Objetivo da Prática: **
 
