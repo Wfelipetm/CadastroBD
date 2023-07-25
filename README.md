@@ -126,6 +126,17 @@ Esses códigos trabalham em conjunto para criar um aplicativo de cadastro que pe
   <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/d1f2fd49-2c2d-447b-b76c-3e90c597de4d" alt="Imagem 2" width="800" height="400" />
 </p>
 
+## Exibir todas Pessoa Fisica e Juridica:
+
+<p align="center">
+ 
+  <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/78e0505c-cfc8-4785-a8d2-f11d6abe1389" alt="Imagem 2" width="800" height="400" />
+</p>
+<p align="center">
+ 
+  <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/0b159f12-cc5e-41a6-b355-de590d18741f" alt="Imagem 2" width="800" height="400" />
+</p>
+
 
 
 
