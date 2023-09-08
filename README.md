@@ -4,6 +4,13 @@
 
 # Cadastro usando JDBC e Padrão DAO
 
+Nome: Wallace Felipe Tavares Moreira 
+Matrícula: 202109237331
+Universidade: UNIVERSIDADE ESTÁCIO DE SÁ
+Curso: Desenvolvimento Full Stack
+Campus: Jardim América – Itaguaí/RJ
+Disciplina: Nível 3 – BeckEnd sem banco não tem
+Semestre Letivo: Terceiro Semestre
 
 
 
