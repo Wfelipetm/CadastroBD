@@ -1,7 +1,7 @@
 ![image](https://github.com/Wfelipetm/MissaoPraticaN1_Mundo3/assets/108297008/262d833e-618d-480c-83cd-8f856715ebd8) 
 
 
-
+----------------------------------------------------------------------------------------------------------------------------
 
 
 Nome: Wallace Felipe Tavares Moreira 
@@ -28,7 +28,7 @@ Semestre Letivo: Terceiro Semestre
 
 
 
-##----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -40,7 +40,7 @@ Semestre Letivo: Terceiro Semestre
 
 
 
-## Incluir Pessoa Fisica e Juridica:
+### Incluir Pessoa Fisica e Juridica:
 
 <p align="center">
   <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/95a06b6f-6c62-4428-ad54-cc195bc9fffe" alt="Imagem 1" width="400" height="400" />
@@ -56,7 +56,7 @@ Semestre Letivo: Terceiro Semestre
   <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/6ce6edd2-54da-4d6c-8d04-9896963a85f5" alt="Imagem 2" width="800" height="400" />
 </p>
 
-## Alterar Pessoa Fisica e Juridica:
+### Alterar Pessoa Fisica e Juridica:
 
 <p align="center">
  
@@ -70,7 +70,7 @@ Semestre Letivo: Terceiro Semestre
 
 
 
-## Excluir Pessoa Fisica e Juridica:
+### Excluir Pessoa Fisica e Juridica:
 
 <p align="center">
  
@@ -81,7 +81,7 @@ Semestre Letivo: Terceiro Semestre
   <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/2fcd8167-266e-4ca3-91fa-14d30e7103e0" alt="Imagem 2" width="800" height="400" />
 </p>
 
-## Buscar Pessoa Fisica e Juridica por ID:
+### Buscar Pessoa Fisica e Juridica por ID:
 
 <p align="center">
  
@@ -92,7 +92,7 @@ Semestre Letivo: Terceiro Semestre
   <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/d1f2fd49-2c2d-447b-b76c-3e90c597de4d" alt="Imagem 2" width="800" height="400" />
 </p>
 
-## Exibir todas Pessoa Fisica e Juridica:
+### Exibir todas Pessoa Fisica e Juridica:
 
 <p align="center">
  
