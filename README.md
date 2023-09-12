@@ -32,8 +32,9 @@ Semestre Letivo: Terceiro Semestre
 
 
 
+
 <p align="center">
-  <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/6878d710-0d1b-4736-b849-e7843aa4a201" alt="Imagem 1" width="400" height="400" />
+  <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/a81d232c-5ee7-4777-b0f5-ea0d059a0d75" alt="Imagem 1" width="400" height="400" />
   <img src="https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/2e3401ae-23cb-40ed-bb57-5b365a0e1822" alt="Imagem 2" width="400" height="400" />
 </p>
 
