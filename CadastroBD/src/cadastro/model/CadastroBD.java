@@ -1,7 +1,7 @@
-/* Wallace Tavares
- */
+/*
+    Autor: Wallace Tavares
+*/
 package cadastro.model;
-import cadastrointerface.InterfaceCadastro;
 import java.util.Scanner;
 
 public class CadastroBD {

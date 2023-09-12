@@ -1,6 +1,7 @@
 package cadastrobd.model;
 
 public class PessoaJuridica extends Pessoa {
+
     private String cnpj;
     private int id;
     private String nome;
@@ -96,20 +97,21 @@ public class PessoaJuridica extends Pessoa {
     public void setCnpj(String cnpj) {
         this.cnpj = cnpj;
     }
+
     public void setIdPessoa(int idPessoa) {
         this.id = idPessoa;
     }
 
     @Override
     public String toString() {
-        return "ID: " + id + "\n" +
-               "Nome: " + nome + "\n" +
-               "CNPJ: " + cnpj + "\n" +
-               "Logradouro: " + logradouro + "\n" +
-               "Cidade: " + cidade + "\n" +
-               "Estado: " + estado + "\n" +
-               "Telefone: " + telefone + "\n" +
-               "Email: " + email + "\n" +
-               "-------------------------------------------";
+        return "ID: " + id + "\n"
+                + "Nome: " + nome + "\n"
+                + "CNPJ: " + cnpj + "\n"
+                + "Logradouro: " + logradouro + "\n"
+                + "Cidade: " + cidade + "\n"
+                + "Estado: " + estado + "\n"
+                + "Telefone: " + telefone + "\n"
+                + "Email: " + email + "\n"
+                + "-------------------------------------------";
     }
 }

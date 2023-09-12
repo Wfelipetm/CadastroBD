@@ -1,18 +1,14 @@
-/* 
-
-        wallace  
+/*
+    Autor: Wallace Tavares
 */
-package cadastrointerface;
 
-
+package cadastro.model;
 import java.util.List;
-
-import cadastro.model.PessoaFisicaDAO;
-import cadastro.model.PessoaJuridicaDAO;
 import cadastrobd.model.PessoaFisica;
 import cadastrobd.model.PessoaJuridica;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+
 
 public class InterfaceCadastro {
 
@@ -29,7 +25,7 @@ public class InterfaceCadastro {
         System.out.println("==============================");
     }
 
-     // Lê a opção escolhida pelo usuário
+    // Lê a opção escolhida pelo usuário
     public static int lerOpcao(Scanner scanner) {
         int opcao = -1;
         boolean opcaoValida = false;
@@ -61,7 +57,8 @@ public class InterfaceCadastro {
         }
         return tipo;
     }
-        public static void realizarInclusao(Scanner scanner, PessoaFisicaDAO pessoaFisicaDAO, PessoaJuridicaDAO pessoaJuridicaDAO) {
+
+    public static void realizarInclusao(Scanner scanner, PessoaFisicaDAO pessoaFisicaDAO, PessoaJuridicaDAO pessoaJuridicaDAO) {
         String tipoInclusao = selecionarTipo(scanner);
         if (tipoInclusao.equalsIgnoreCase("F")) {
             incluirPessoaFisica(scanner, pessoaFisicaDAO);
@@ -69,9 +66,7 @@ public class InterfaceCadastro {
             incluirPessoaJuridica(scanner, pessoaJuridicaDAO);
         }
     }
-        
-        
-        
+
     // Método para realizar a alteração de uma pessoa física ou jurídica
     public static void realizarAlteracao(Scanner scanner, PessoaFisicaDAO pessoaFisicaDAO, PessoaJuridicaDAO pessoaJuridicaDAO) {
         String tipoAlteracao = selecionarTipo(scanner);
@@ -81,27 +76,26 @@ public class InterfaceCadastro {
             alterarPessoaJuridica(scanner, pessoaJuridicaDAO);
         }
     }
-    
-   // Método para realizar a exclusão de uma pessoa física ou jurídica
+
+    // Método para realizar a exclusão de uma pessoa física ou jurídica
     public static void realizarExclusao(Scanner scanner, PessoaFisicaDAO pessoaFisicaDAO, PessoaJuridicaDAO pessoaJuridicaDAO) {
         String tipoExclusao = selecionarTipo(scanner);
         if (tipoExclusao.equalsIgnoreCase("F")) {
-        int idPessoa = selecionarIdPessoa(scanner);
-        pessoaFisicaDAO.excluir(idPessoa);
-        System.out.println("Pessoa fisica excluida com sucesso.");
+            int idPessoa = selecionarIdPessoa(scanner);
+            pessoaFisicaDAO.excluir(idPessoa);
+            System.out.println("Pessoa fisica excluida com sucesso.");
 
-        // Após a exclusão, listar novamente as pessoas físicas atualizadas
-        realizarListagem(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
-    } else if (tipoExclusao.equalsIgnoreCase("J")) {
-        int idPessoa = selecionarIdPessoa(scanner);
-        pessoaJuridicaDAO.excluir(idPessoa);
-        System.out.println("Pessoa juridica excluida com sucesso.");
+            // Após a exclusão, listar novamente as pessoas físicas atualizadas
+            realizarListagem(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
+        } else if (tipoExclusao.equalsIgnoreCase("J")) {
+            int idPessoa = selecionarIdPessoa(scanner);
+            pessoaJuridicaDAO.excluir(idPessoa);
+            System.out.println("Pessoa juridica excluida com sucesso.");
 
-        // Após a exclusão, listar novamente as pessoas jurídicas atualizadas
-        realizarListagem(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
+            // Após a exclusão, listar novamente as pessoas jurídicas atualizadas
+            realizarListagem(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
+        }
     }
-}
-
 
     // Método para obter os dados de uma pessoa física ou jurídica por ID
     public static void realizarObtencaoPorID(Scanner scanner, PessoaFisicaDAO pessoaFisicaDAO, PessoaJuridicaDAO pessoaJuridicaDAO) {
@@ -115,29 +109,27 @@ public class InterfaceCadastro {
 
     // Método para listar todas as pessoas físicas cadastradas no banco de dados
     public static void realizarListagem(Scanner scanner, PessoaFisicaDAO pessoaFisicaDAO, PessoaJuridicaDAO pessoaJuridicaDAO) {
-    String tipoListagem = selecionarTipo(scanner);
-    if (tipoListagem.equalsIgnoreCase("F")) {
-        List<PessoaFisica> pessoasFisicas = pessoaFisicaDAO.listarTodasPessoasFisicas();
-        System.out.println("""
+        String tipoListagem = selecionarTipo(scanner);
+        if (tipoListagem.equalsIgnoreCase("F")) {
+            List<PessoaFisica> pessoasFisicas = pessoaFisicaDAO.listarTodasPessoasFisicas();
+            System.out.println("""
                            Exibindo dados de Pessoa Fisica...
                            -------------------------------------------""");
-        for (PessoaFisica pessoaFisica : pessoasFisicas) {
-            System.out.println(pessoaFisica.toString());
-        }
-    } else if (tipoListagem.equalsIgnoreCase("J")) {
-        List<PessoaJuridica> pessoasJuridicas = pessoaJuridicaDAO.listarTodasPessoasJuridicas();
-        System.out.println("""
+            for (PessoaFisica pessoaFisica : pessoasFisicas) {
+                System.out.println(pessoaFisica.toString());
+            }
+        } else if (tipoListagem.equalsIgnoreCase("J")) {
+            List<PessoaJuridica> pessoasJuridicas = pessoaJuridicaDAO.listarTodasPessoasJuridicas();
+            System.out.println("""
                            Exibindo dados de Pessoa Juridica...
                            -------------------------------------------""");
-        for (PessoaJuridica pessoaJuridica : pessoasJuridicas) {
-            System.out.println(pessoaJuridica.toString());
+            for (PessoaJuridica pessoaJuridica : pessoasJuridicas) {
+                System.out.println(pessoaJuridica.toString());
+            }
         }
     }
-}
 
-
-
-     // Lê os dados da pessoa física e realiza a inclusão no banco de dados
+    // Lê os dados da pessoa física e realiza a inclusão no banco de dados
     public static void incluirPessoaFisica(Scanner scanner, PessoaFisicaDAO pessoaFisicaDAO) {
         PessoaFisica pessoaFisica = new PessoaFisica();
         scanner.nextLine(); // Limpar o buffer do scanner
@@ -149,23 +141,23 @@ public class InterfaceCadastro {
         System.out.print("Digite o CPF da pessoa fisica: ");
         String cpf = scanner.nextLine();
         pessoaFisica.setCpf(cpf);
-        
+
         System.out.print("Digite o Logradouro da pessoa fisica: ");
         String logradouro = scanner.nextLine();
         pessoaFisica.setLogradouro(logradouro);
-        
+
         System.out.print("Digite o cidade da pessoa fisica: ");
         String cidade = scanner.nextLine();
         pessoaFisica.setCidade(cidade);
-        
+
         System.out.print("Digite o estado da pessoa fisica: ");
         String estado = scanner.nextLine();
         pessoaFisica.setEstado(estado);
-        
+
         System.out.print("Digite o telefone da pessoa fisica: ");
         String telefone = scanner.nextLine();
         pessoaFisica.setTelefone(telefone);
-        
+
         System.out.print("Digite o email da pessoa fisica: ");
         String email = scanner.nextLine();
         pessoaFisica.setEmail(email);
@@ -174,7 +166,7 @@ public class InterfaceCadastro {
         System.out.println("Pessoa fisica incluida com sucesso.");
     }
 
-     // Lê os dados da pessoa jurídica e realiza a inclusão no banco de dados
+    // Lê os dados da pessoa jurídica e realiza a inclusão no banco de dados
     public static void incluirPessoaJuridica(Scanner scanner, PessoaJuridicaDAO pessoaJuridicaDAO) {
         PessoaJuridica pessoaJuridica = new PessoaJuridica();
         scanner.nextLine(); // Limpar o buffer do scanner
@@ -211,9 +203,7 @@ public class InterfaceCadastro {
         System.out.println("Pessoa jurídica incluída com sucesso.");
     }
 
-
-    // Obtém o ID da pessoa física a ser alterada, lê os novos dados e realiza a 
-    //alteração no banco de dados
+    // Obtém o ID da pessoa física a ser alterada, lê os novos dados e realiza a alteração no banco de dados
     public static void alterarPessoaFisica(Scanner scanner, PessoaFisicaDAO pessoaFisicaDAO) {
         System.out.print("Digite o ID da pessoa física a ser alterada: ");
         int id = scanner.nextInt();
@@ -265,35 +255,31 @@ public class InterfaceCadastro {
 
     // Lista todas as pessoas jurídicas cadastradas no banco de dados
     public static void listarPessoasJuridicas(PessoaJuridicaDAO pessoaJuridicaDAO) {
-    List<PessoaJuridica> pessoasJuridicas = pessoaJuridicaDAO.listarTodasPessoasJuridicas();
-    System.out.println("""
+        List<PessoaJuridica> pessoasJuridicas = pessoaJuridicaDAO.listarTodasPessoasJuridicas();
+        System.out.println("""
                        Exibindo dados de Pessoa Juridica...
                        -------------------------------------------""");
-    for (PessoaJuridica pessoaJuridica : pessoasJuridicas) {
-        System.out.println(pessoaJuridica.toString());
-    }
-}
-
-    // Lista todas as pessoas físicas cadastradas no banco de dados
-public static void listarPessoasFisicas(PessoaFisicaDAO pessoaFisicaDAO) {
-    List<PessoaFisica> pessoasFisicas = pessoaFisicaDAO.listarTodasPessoasFisicas();
-    if (pessoasFisicas.isEmpty()) {
-        System.out.println("Não há pessoas físicas cadastradas.");
-    } else {
-        System.out.println("""
-                           Exibindo dados de Pessoa Fisica...
-                           -------------------------------------------""");
-        for (PessoaFisica pessoaFisica : pessoasFisicas) {
-            System.out.println(pessoaFisica.toString());
+        for (PessoaJuridica pessoaJuridica : pessoasJuridicas) {
+            System.out.println(pessoaJuridica.toString());
         }
     }
-}
 
-  
+    // Lista todas as pessoas físicas cadastradas no banco de dados
+    public static void listarPessoasFisicas(PessoaFisicaDAO pessoaFisicaDAO) {
+        List<PessoaFisica> pessoasFisicas = pessoaFisicaDAO.listarTodasPessoasFisicas();
+        if (pessoasFisicas.isEmpty()) {
+            System.out.println("Não há pessoas físicas cadastradas.");
+        } else {
+            System.out.println("""
+                           Exibindo dados de Pessoa Fisica...
+                           -------------------------------------------""");
+            for (PessoaFisica pessoaFisica : pessoasFisicas) {
+                System.out.println(pessoaFisica.toString());
+            }
+        }
+    }
 
-
-
-   // Exibe os dados de uma pessoa física com base no ID fornecido
+    // Exibe os dados de uma pessoa física com base no ID fornecido
     public static void exibirPessoaFisicaPorID(Scanner scanner, PessoaFisicaDAO pessoaFisicaDAO) {
         System.out.println("Digite o ID da pessoa Física a ser exibida:");
         int idPessoa = scanner.nextInt();
@@ -321,11 +307,7 @@ public static void listarPessoasFisicas(PessoaFisicaDAO pessoaFisicaDAO) {
         }
     }
 
-
-
-
-
-        // Obtém o ID da pessoa jurídica a ser alterada, lê os novos dados e realiza a alteração no banco de dados
+    // Obtém o ID da pessoa jurídica a ser alterada, lê os novos dados e realiza a alteração no banco de dados
     public static void alterarPessoaJuridica(Scanner scanner, PessoaJuridicaDAO pessoaJuridicaDAO) {
         System.out.print("Digite o ID da pessoa jurídica a ser alterada: ");
         int id = scanner.nextInt();
@@ -372,9 +354,8 @@ public static void listarPessoasFisicas(PessoaFisicaDAO pessoaFisicaDAO) {
         }
     }
 
-        // Solicita ao usuário que digite o ID de uma pessoa física 
-        // a ser excluída e retorna o ID fornecido
-        public static int selecionarIdPessoa(Scanner scanner) {
+    // Solicita ao usuário que digite o ID de uma pessoa física a ser excluída e retorna o ID fornecido
+    public static int selecionarIdPessoa(Scanner scanner) {
         System.out.println("Digite o ID da pessoa física a ser excluída:");
         int idPessoa = scanner.nextInt();
         scanner.nextLine(); // Limpar o buffer do scanner
@@ -382,4 +363,3 @@ public static void listarPessoasFisicas(PessoaFisicaDAO pessoaFisicaDAO) {
         return idPessoa;
     }
 }
-

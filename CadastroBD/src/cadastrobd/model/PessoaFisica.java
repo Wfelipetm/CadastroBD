@@ -1,10 +1,10 @@
 /* 
     Autor: Wallace Tavares
-*/
-
+ */
 package cadastrobd.model;
 
 public class PessoaFisica extends Pessoa {
+
     private String cpf;
     private int id;
     private String nome;
@@ -13,12 +13,14 @@ public class PessoaFisica extends Pessoa {
     private String estado;
     private String telefone;
     private String email;
-    
+
     public PessoaFisica() {
     }
+
     public PessoaFisica(int id, String nome, String cpf) {
-    this.cpf = cpf;
-}
+        this.cpf = cpf;
+    }
+
     @Override
     public void exibir() {
         super.exibir();
@@ -28,7 +30,7 @@ public class PessoaFisica extends Pessoa {
     public String getNome() {
         return nome;
     }
-    
+
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -37,7 +39,7 @@ public class PessoaFisica extends Pessoa {
     public String getLogradouro() {
         return logradouro;
     }
-    
+
     @Override
     public void setLogradouro(String logradouro) {
         this.logradouro = logradouro;
@@ -45,9 +47,9 @@ public class PessoaFisica extends Pessoa {
 
     @Override
     public String getCidade() {
-         return cidade;
+        return cidade;
     }
-    
+
     @Override
     public void setCidade(String cidade) {
         this.cidade = cidade;
@@ -57,7 +59,7 @@ public class PessoaFisica extends Pessoa {
     public String getEstado() {
         return estado;
     }
-    
+
     @Override
     public void setEstado(String estado) {
         this.estado = estado;
@@ -67,8 +69,7 @@ public class PessoaFisica extends Pessoa {
     public String getTelefone() {
         return telefone;
     }
-    
-    
+
     @Override
     public void setTelefone(String telefone) {
         this.telefone = telefone;
@@ -77,7 +78,7 @@ public class PessoaFisica extends Pessoa {
     public int getId() {
         return id;
     }
-    
+
     public void setId(int id) {
         this.id = id;
     }
@@ -86,7 +87,7 @@ public class PessoaFisica extends Pessoa {
     public String getEmail() {
         return email;
     }
-    
+
     @Override
     public void setEmail(String email) {
         this.email = email;
@@ -99,26 +100,23 @@ public class PessoaFisica extends Pessoa {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-       public void setIdPessoa(int idPessoa) {
-    this.id = idPessoa;
-}
+
+    public void setIdPessoa(int idPessoa) {
+        this.id = idPessoa;
+    }
+
     @Override
-        public String toString() {
-            return
-                   "ID: " + id + "\n" +
-                   "Nome: " + nome + "\n" +
-                   "CPF: " + cpf + "\n" +
-                   "Logradouro: " + logradouro + "\n" +
-                   "Cidade: " + cidade + "\n" +
-                   "Estado: " + estado + "\n" +
-                   "Telefone: " + telefone + "\n" +
-                   "Email: " + email+ "\n"+
-                    "-------------------------------------------";
+    public String toString() {
+        return "ID: " + id + "\n"
+                + "Nome: " + nome + "\n"
+                + "CPF: " + cpf + "\n"
+                + "Logradouro: " + logradouro + "\n"
+                + "Cidade: " + cidade + "\n"
+                + "Estado: " + estado + "\n"
+                + "Telefone: " + telefone + "\n"
+                + "Email: " + email + "\n"
+                + "-------------------------------------------";
 
-        }
-
-
-
- 
+    }
 
 }

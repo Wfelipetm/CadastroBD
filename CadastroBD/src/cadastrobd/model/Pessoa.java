@@ -1,9 +1,10 @@
 /* 
     Autor: Wallace Tavares
-*/
-
+ */
 package cadastrobd.model;
+
 public class Pessoa {
+
     private int id;
     String nome;
     String logradouro;
@@ -13,7 +14,7 @@ public class Pessoa {
     String email;
 
     public Pessoa() {
-       
+
     }
 
     public Pessoa(int id, String nome, String logradouro, String cidade, String estado, String telefone, String email) {
@@ -26,42 +27,46 @@ public class Pessoa {
         this.email = email;
     }
 
-    
- public String getEmail() {
+    public String getEmail() {
         return email;
     }
-    
+
     public void setEmail(String email) {
         this.email = email;
     }
+
     public String getTelefone() {
         return telefone;
     }
-    
+
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
+
     public String getEstado() {
         return estado;
     }
-    
+
     public void setEstado(String estado) {
         this.estado = estado;
     }
+
     public String getCidade() {
-         return cidade;
+        return cidade;
     }
-    
+
     public void setCidade(String cidade) {
         this.cidade = cidade;
     }
+
     public String getLogradouro() {
         return logradouro;
     }
-    
+
     public void setLogradouro(String logradouro) {
         this.logradouro = logradouro;
     }
+
     public void exibir() {
         System.out.println("ID: " + id);
         System.out.println("Nome: " + nome);
@@ -72,4 +77,3 @@ public class Pessoa {
         System.out.println("Email: " + email);
     }
 }
-
