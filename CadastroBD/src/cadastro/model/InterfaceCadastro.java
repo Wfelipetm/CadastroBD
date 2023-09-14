@@ -2,12 +2,13 @@
     Autor: Wallace Tavares
  */
 package cadastro.model;
-
 import java.util.List;
 import cadastrobd.model.PessoaFisica;
 import cadastrobd.model.PessoaJuridica;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+
+
 
 public class InterfaceCadastro {
     private static final int Incluir_Pessoa = 1;
@@ -22,7 +23,7 @@ public class InterfaceCadastro {
     public static void Opcoes() {
         System.out.println("\n Menu:");
         System.out.println("_______________________________");
-        System.out.println("");
+        System.out.println("                               ");
         System.out.println("1 - Incluir Pessoa");
         System.out.println("2 - Alterar Pessoa");
         System.out.println("3 - Excluir Pessoa");
