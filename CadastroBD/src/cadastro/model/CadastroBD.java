@@ -1,7 +1,8 @@
 /*
     Autor: Wallace Tavares
-*/
+ */
 package cadastro.model;
+
 import java.util.Scanner;
 
 public class CadastroBD {
@@ -13,40 +14,36 @@ public class CadastroBD {
 
             boolean continuar = true;
             while (continuar) {
-                InterfaceCadastro.exibirOpcoes();
+                InterfaceCadastro.Opcoes();
 
-                int opcao = InterfaceCadastro.lerOpcao(scanner);
+                int opcao = InterfaceCadastro.ler(scanner);
 
                 switch (opcao) {
-                    case 1->    {
-                                InterfaceCadastro.realizarInclusao
-                                (scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
+                    case 1 -> {
+                        InterfaceCadastro.realizarInclusao(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
                     }
                     case 2 -> {
-                                InterfaceCadastro.realizarAlteracao
-                                (scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
-                    break;
+                        InterfaceCadastro.realizarAlteracao(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
+                        break;
                     }
                     case 3 -> {
-                                InterfaceCadastro.realizarExclusao
-                                (scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
-                    break;
+                        InterfaceCadastro.Exclusao(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
+                        break;
                     }
                     case 4 -> {
-                                InterfaceCadastro.realizarObtencaoPorID
-                                (scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
-                    break;
+                        InterfaceCadastro.ObterPorID(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
+                        break;
                     }
                     case 5 -> {
-                                InterfaceCadastro.realizarListagem
-                                (scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
-                    break;
+                        InterfaceCadastro.Listagem(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
+                        break;
                     }
-                    case 0 -> continuar = false;
-                    default -> System.out.println("Opção inválida. Tente novamente.");
+                    case 0 ->
+                        continuar = false;
+                    default ->
+                        System.out.println("Opção inválida. Tente novamente.");
                 }
             }
         }
     }
 }
-
