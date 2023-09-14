@@ -2,8 +2,8 @@
     Autor: Wallace Tavares
  */
 package cadastro.model;
-
 import java.util.Scanner;
+
 
 public class CadastroBD {
 
@@ -13,6 +13,7 @@ public class CadastroBD {
             PessoaJuridicaDAO pessoaJuridicaDAO = new PessoaJuridicaDAO();
 
             boolean continuar = true;
+
             while (continuar) {
                 InterfaceCadastro.Opcoes();
 
@@ -20,30 +21,41 @@ public class CadastroBD {
 
                 switch (opcao) {
                     case 1 -> {
-                        InterfaceCadastro.realizarInclusao(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
+                        Incluir_Pessoa:
+                        InterfaceCadastro.Incluir(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
+                        break;
                     }
                     case 2 -> {
-                        InterfaceCadastro.realizarAlteracao(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
+                        Alterar_Pessoa:
+                        InterfaceCadastro.Alterar(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
                         break;
                     }
                     case 3 -> {
-                        InterfaceCadastro.Exclusao(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
+                        Excluir_Pessoa:
+                        InterfaceCadastro.Excluir(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
                         break;
                     }
                     case 4 -> {
-                        InterfaceCadastro.ObterPorID(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
+                        Buscar_pelo_Id:
+                        InterfaceCadastro.Buscar(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
                         break;
                     }
                     case 5 -> {
-                        InterfaceCadastro.Listagem(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
+                        Exibir_todos:
+                        InterfaceCadastro.Listar(scanner, pessoaFisicaDAO, pessoaJuridicaDAO);
                         break;
                     }
-                    case 0 ->
+                    case 0 -> {
+                        Finalizar_Programa:
                         continuar = false;
+                    }
+
                     default ->
                         System.out.println("Opção inválida. Tente novamente.");
                 }
             }
         }
+
     }
+
 }
