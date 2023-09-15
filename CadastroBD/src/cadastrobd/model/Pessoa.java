@@ -14,7 +14,6 @@ public class Pessoa {
     String email;
 
     public Pessoa() {
-
     }
 
     public Pessoa(int id, String nome, String logradouro, String cidade, String estado, String telefone, String email) {
