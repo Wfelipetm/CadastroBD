@@ -1,5 +1,5 @@
-![image](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/1717a002-c101-4b0f-831d-c9391746d2a5)
 
+![265780663-41324c9f-57ce-4236-b519-9b10ac00132b](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/849862ed-f403-452b-b922-ba7273ca99f6)
 
 
 ----------------------------------------------------------------------------------------------------------------------------
@@ -48,55 +48,65 @@ Semestre Letivo: Terceiro Semestre
 
 
 
-![Imagem do WhatsApp de 2023-09-14 à(s) 21 30 15](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/d1c8083e-6f23-4f60-be09-65e5b2bd2f61)
+![1](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/053dacb7-0243-4340-9926-fd5d977eb039)
+
 -----------------------------------------------------------------------------------------------------------------------------
 ### Alterar Pessoa Fisica
 
 
+![2](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/73914e8b-ca5a-4b6d-a520-a9b68f508662)
 
-![Imagem do WhatsApp de 2023-09-14 à(s) 21 37 42](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/7645bd2e-534a-4b53-b40d-5096866c1bdf)
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 ### Excluir Pessoa Fisica 
 
-![Imagem do WhatsApp de 2023-09-14 à(s) 21 39 47](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/2abbe4de-8359-43a5-b422-fec0ae7701df)
+
+![3](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/00ad97a1-6964-4b52-998e-9641c1402228)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ### Buscar Pessoa Fisic por ID:
 
-![Imagem do WhatsApp de 2023-09-14 à(s) 21 41 12](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/47c5257c-6cca-4af0-a9a4-46a87c4db8d1)
+
+![4](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/01a4eb5e-e64c-422e-a86a-11a80d2613c0)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ### Exibir todas Pessoa Fisica 
 
 
-![Imagem do WhatsApp de 2023-09-14 à(s) 21 42 04](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/a739cf51-5a85-4e3c-bda8-1c26fa572c95)
+![5](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/3a760219-5b77-4bea-95a0-7b370e27b3d1)
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 ### Incluir Pessoa Juridica
-![image](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/d145dbac-0c29-4541-90a9-488075ea515d)
+
+![6](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/e97dc695-edf7-46d4-9207-7817293f75e3)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 ### Alterar Pessoa Juridica
 
-![image](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/320ca7c5-b942-4cfa-90bb-6f9932f0fb2f)
+![7](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/9a7804ec-da46-4f49-80e2-03917237c7ec)
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 
 
 
 ### Excluir Pessoa Juridica
-![image](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/5129c033-8367-49ea-b539-f1053e9d9f79)
+
+![8](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/b1c752ee-db18-43b5-8c98-ae2df095ffb8)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 ### Buscar Pessoa Juridica por ID
 
-![image](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/69eb851c-2290-4820-ba9e-9c28f7fa2a2c)
+
+![9](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/29aa1a88-cb4f-4b6c-8f97-af44d78d97f2)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ### Exibir todas Pessoa Juridica
-![image](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/49d4934c-c39f-46cb-a2d7-3c1292019a68)
+![10](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/9f2e9fac-769c-4321-a975-1e63d01c2204)
+
 -----------------------------------------------------------------------------------------------------------------------------
 
