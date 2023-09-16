@@ -22,7 +22,11 @@ Semestre Letivo: Terceiro Semestre
 
 
 
+-----------------------------------------------------------------------------------------------------------------------------
 
+
+### Relatório discente de acompanhamento:
+- [PDF Procedimento 1](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/blob/main/Relat%C3%B3rio_N3.pdf)
 
 
 
