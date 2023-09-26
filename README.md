@@ -1,45 +1,4 @@
 
-![265780663-41324c9f-57ce-4236-b519-9b10ac00132b](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/assets/108297008/849862ed-f403-452b-b922-ba7273ca99f6)
-
-
-----------------------------------------------------------------------------------------------------------------------------
-
-
-Nome: Wallace Felipe Tavares Moreira 
-
-Matrícula: 202109237331
-
-Universidade: UNIVERSIDADE ESTÁCIO DE SÁ
-
-Curso: Desenvolvimento Full Stack
-
-Campus: Jardim América – Itaguaí/RJ
-
-Disciplina: Nível 3 – BeckEnd sem banco não tem
-
-Semestre Letivo: Terceiro Semestre
-
-
-
-
------------------------------------------------------------------------------------------------------------------------------
-
-
-### Relatório discente de acompanhamento:
-- [PDF Relatório ](https://github.com/Wfelipetm/MissaoPraticaN3_Mundo3/blob/main/Relat%C3%B3rio_N3.pdf)
-
-
-
-
-
-
------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
 
 
 
